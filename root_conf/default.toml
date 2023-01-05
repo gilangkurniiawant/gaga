@@ -1,0 +1,14 @@
+package_key=22
+service_name='app'
+
+package_service_url="http://api.package.coreservice.io:8080"
+http_warm_up_sec = 5
+http_failed_sleep_sec = 60
+
+
+[log]
+level = 'INFO'
+
+[http]
+enable = true
+port = 29091
